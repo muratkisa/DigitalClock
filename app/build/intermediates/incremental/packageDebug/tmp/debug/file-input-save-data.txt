@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Fri Feb 07 18:16:04 EET 2020
+1.base=C\:\\Users\\hp\\Documents\\GitHub\\DigitalClock\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.path=font/dream.ttf
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\hp\\Documents\\GitHub\\DigitalClock\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=font/lcdn.ttf
+0.set=ASSET
+0.base=C\:\\Users\\hp\\Documents\\GitHub\\DigitalClock\\app\\build\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=classes.dex
