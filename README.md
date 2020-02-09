@@ -1,4 +1,4 @@
-Digital Clock for Android
+#Digital Clock for Android
 
 A simple android digital clock application.
 
