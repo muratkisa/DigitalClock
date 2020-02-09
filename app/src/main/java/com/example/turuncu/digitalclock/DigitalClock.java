@@ -47,7 +47,14 @@ public class DigitalClock extends android.support.v7.widget.AppCompatTextView {
                 hours = 0;
             }
         }
-        setText(String.format("%02d.%02d.%02d", hours, minutes, seconds));
+
+        if(seconds%2==0)
+            setText(String.format("%02d:%02d.%02d", hours, minutes, seconds));
+        else
+            setText(String.format("%02d:%02d:%02d", hours, minutes, seconds));
+
+        if (seconds==00)
+            setText(String.format("%02d.%02d.%02d", hours, minutes, seconds));
     }
 
     private void init() {
